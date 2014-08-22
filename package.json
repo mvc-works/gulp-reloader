@@ -1,0 +1,28 @@
+{
+  "name": "gulp-reloader",
+  "version": "0.0.1",
+  "description": "gulp plugin for devtools-reloader",
+  "main": "./reloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "reloader"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "ws": "^0.4.32"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvc-works/gulp-reloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mvc-works/gulp-reloader/issues"
+  },
+  "homepage": "https://github.com/mvc-works/gulp-reloader"
+}
