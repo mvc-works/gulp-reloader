@@ -1,8 +1,8 @@
 {
   "name": "gulp-reloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "gulp plugin for devtools-reloader",
-  "main": "./reloader.js",
+  "main": "./lib/reloader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.0",
+    "through2": "^0.6.3",
     "ws": "^0.4.32"
   },
   "devDependencies": {},

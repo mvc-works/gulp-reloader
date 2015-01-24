@@ -26,6 +26,8 @@ gulp.task 'watch', ->
   .pipe reloader('patterns in url')
 ```
 
+Since `0.0.2` there's a `300ms` debounce in case of frequent file changes.
+
 ### License
 
 MIT
